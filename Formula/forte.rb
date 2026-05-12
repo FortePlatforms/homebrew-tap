@@ -5,16 +5,16 @@ class Forte < Formula
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/FortePlatforms/homebrew-tap/releases/download/v0.0.4/forte-darwin-arm64"
-    sha256 "2e76d1c05f2055b47319770b1ecedc0dedd72e4c6edcc23a456fc7ed5dcc1801"
+    sha256 "82db9d59300fcdbd9792e8a0457b7b56b0c21a20ae4bd64475f44b3f4dd4d298"
   elsif OS.mac?
     url "https://github.com/FortePlatforms/homebrew-tap/releases/download/v0.0.4/forte-darwin-x64"
-    sha256 "507bb943aa32a211f22d43c31ff3b0b37591db8e4cd4f73fad8f99189b542a0d"
+    sha256 "cdf21b40ac5074fe89c49decc5ccd1d3983ecfb878d160c4e7db41630e075e97"
   elsif OS.linux? && Hardware::CPU.arm?
     url "https://github.com/FortePlatforms/homebrew-tap/releases/download/v0.0.4/forte-linux-arm64"
-    sha256 "147cadb55aca5304e560fca2baa12c9b6c6b7a73045cae7e2ad005d232e6b4e2"
+    sha256 "d6248b886f9c3c0fb2c8bd1179b14788b4a522a8fcdf3093367ef878eaa9ea85"
   elsif OS.linux?
     url "https://github.com/FortePlatforms/homebrew-tap/releases/download/v0.0.4/forte-linux-x64"
-    sha256 "1d9c390675df5ab12b6791762c2e78fa4c7e50f4e909ee5b43bca082a522333c"
+    sha256 "3cb93843bd8ea925aaee45e1c29fe3cb154938d4737bdb2cc0a50bf8dff72579"
   end
 
   def install
